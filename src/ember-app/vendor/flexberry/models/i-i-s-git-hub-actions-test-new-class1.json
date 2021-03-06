@@ -1,0 +1,54 @@
+﻿{
+  "name": "IISGitHubActionsTestNewClass1",
+  "modelName": "i-i-s-git-hub-actions-test-new-class1",
+  "className": "NewClass1",
+  "nameSpace": "IIS.GitHubActionsTest",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "a",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "NewClass1E",
+      "modelName": "i-i-s-git-hub-actions-test-new-class1",
+      "attrs": [
+        {
+          "name": "a",
+          "caption": "A",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "NewClass1L",
+      "modelName": "i-i-s-git-hub-actions-test-new-class1",
+      "attrs": [
+        {
+          "name": "a",
+          "caption": "A",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
